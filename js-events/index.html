@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learning JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+	<div class="header"> 
+	<h2 id="heading">Learning JavaScript</h2>
+	<p>With CK</p>
+	</div>
+	<div class= "container">
+		<button onclick="changeText(this)">Click me</button>
+		<button onclick="changeTextTitle()">Change title</button>
+		<button onclick="showDate()">Show date</button>
+		<h3 id="time"></h3>
+	</div>
+	<form method="post" action="something.php" id="myForm" onsubmit="return validateForm()">
+	<div>
+		<label >First Name</label>
+		<input type="text" name="firstName" id="firstName" />
+	</div>
+	<br />
+	<div>
+		<label >Background</label>
+		<select name="background" id="background" onchange="changeBackground(this)">
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+		</select>
+	</div>
+	<br>
+	<input type="submit" value="Submit" />
+	<div class="msg"></div>
+	</form>
+	<script src=main.js>
+
+	</script>
+</body>
+</html>
+
+<!--           
+
+Multiline comments
+
+-->
